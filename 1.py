@@ -1,3 +1,5 @@
+#1: Multiples of 3 and 5
+
 T = int(input())
 for _ in range(T):
     N = int(input())

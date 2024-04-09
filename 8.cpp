@@ -1,3 +1,5 @@
+// #8: Largest product in a series
+
 #include <cmath>
 #include <cstdio>
 #include <vector>

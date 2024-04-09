@@ -1,3 +1,5 @@
+#9: Special Pythagorean triplet
+
 #!/bin/python3
 
 import sys

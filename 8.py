@@ -1,3 +1,5 @@
+#8: Largest product in a series
+
 from math import prod
 
 T = int(input())

@@ -1,3 +1,5 @@
+#6: Sum square difference
+
 #!/bin/python3
 
 import sys
