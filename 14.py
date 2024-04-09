@@ -1,3 +1,5 @@
+ #14: Longest Collatz sequence
+
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 M = 1

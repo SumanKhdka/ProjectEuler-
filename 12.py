@@ -1,3 +1,4 @@
+#12: Highly divisible triangular number
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 ans = {}
