@@ -1,30 +1,22 @@
-def find_least_number(proportion):
-    count_bouncy = 0
-    number = 99
-    while True:
-        number += 1
-        str_num = str(number)
-        increasing = decreasing = True
-        for i in range(1, len(str_num)):
-            if str_num[i] > str_num[i - 1]:
-                decreasing = False
-            elif str_num[i] < str_num[i - 1]:
-                increasing = False
-            if not increasing and not decreasing:
-                count_bouncy += 1
-                break
-        if count_bouncy / number >= proportion:
-            return number
-
-# Input
-test_cases = int(input())
-results = []
-
-for _ in range(test_cases):
-    x, y = map(int, input().split())
-    result = find_least_number(y / 100)
-    results.append(result)
-
-# Output
-for result in results:
-    print(result)
+def Bouncy(Number):
+	Str_Number = str(Number)
+	Greater_Flag = False
+	Lesser_Flag = False
+	for i in range(1, len(Str_Number)):
+		if Str_Number[i] > Str_Number[i - 1]:
+			Greater_Flag = True
+		elif Str_Number[i] < Str_Number[i - 1]:
+			Lesser_Flag = True
+		if Greater_Flag == True and Lesser_Flag == True:
+			return True
+	return False
+Number = 99
+Count = 0
+while True:
+	Number += 1
+	if Bouncy(Number):
+		Count += 1
+	if float(Count) / Number == 0.99:
+		print Number
+		break
+Wait = raw_input()
