@@ -1,4 +1,4 @@
-//#85: Counting rectangles
+#85: Counting rectangles
 import math
 
 def main():
