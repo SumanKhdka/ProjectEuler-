@@ -1,3 +1,4 @@
+#91: Right triangles with integer coordinates
 import math
 
 # greatest common divisor
@@ -17,13 +18,6 @@ def main():
     # plus triangles where the right angle is located on the y-axis
     result += size * size
 
-    # now all triangles where the right angle at point P(x > 0, y <= x)
-    # that's the triangle in the bottom-right half, denoted by slashes
-    # ^   /
-    # | //
-    # | ///
-    # |////
-    # +--->
 
     for p_x in range(1, size + 1):
         for p_y in range(1, p_x + 1):
