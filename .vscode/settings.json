@@ -1,0 +1,6 @@
+{
+    "zenMode.hideActivityBar": false,
+    "files.exclude": {
+        "": true
+    }
+}
